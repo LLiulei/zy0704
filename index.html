@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>京东页面</title>
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="tab">
+                <div class="left"><img src="images/gd.gif"></div>
+                <div class="right">
+                    <img src="images/fd.gif">
+                    <input type="text" placeholder="钓鱼竿">
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="swiper-container content">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/lun1.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/lun2.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/lun3.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/lun4.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/lun5.jpg">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="mein">
+                <dl>
+                    <dt><img src="images/banner1.gif"></dt>
+                    <dd>领优惠劵</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/banner2.gif"></dt>
+                    <dd>领优惠劵</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/banner3.gif"></dt>
+                    <dd>领优惠劵</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/banner4.gif"></dt>
+                    <dd>领优惠劵</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/banner5.gif"></dt>
+                    <dd>领优惠劵</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/banner6.gif"></dt>
+                    <dd>领优惠劵</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/banner7.gif"></dt>
+                    <dd>领优惠劵</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/banner8.gif"></dt>
+                    <dd>领优惠劵</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/banner9.gif"></dt>
+                    <dd>领优惠劵</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/banner10.gif"></dt>
+                    <dd>领优惠劵</dd>
+                </dl>
+            </div>
+            <img class="banner" src="images/banner.gif"></img>
+            <div class="box">
+                <div class="me">
+                    <h4>我的</h4>
+                    <p>购物头条</p>
+                    <img src="images/right.gif">
+                </div>
+                <div class="he">
+                    <dl>
+                        <dd>
+                            <h5><img src="images/logo.gif">京东天气管家</h5>
+                            <p>
+                                您所在的城市太干燥啦,奉上保湿大福利!戳这里>
+                            </p>
+                        </dd>
+                        <dt>
+                            <img src="images/tb.gif">
+                        </dt>
+                    </dl>
+                </div>
+            </div>
+            <img class="banner" src="images/banner.gif"></img>
+        </section>
+        <footer>
+            <dl>
+                <dt><img src="images/icon1.gif"></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/icon2.gif"></dt>
+                <dd>微选</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/icon3.gif"></dt>
+                <dd>购物圈</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/icon4.gif"></dt>
+                <dd>购物车</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/icon5.gif"></dt>
+                <dd>个人中心</dd>
+            </dl>
+        </footer>
+    </div>
+    <script src="js/swiper.js"></script>
+    <script>
+        new Swiper('.content',{
+            autoplay:true,
+            loop:true,
+            initialSlide:3,
+            speed:1000,
+            pagination:{
+                el:'.swiper-pagination',
+                bulletActiveClass:'active'
+            }
+        })
+    </script>
+</body>
+</html>
